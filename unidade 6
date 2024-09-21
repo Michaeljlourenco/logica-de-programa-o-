@@ -1,0 +1,22 @@
+// Escreva um programa que crie uma matriz 3x3 com os valores de 1 a 9 e imprima seus valores.
+
+let matriz = [
+    [
+    [ 1, 2, 3],
+    [ 4, 5, 6],
+    [
+    [ 7, 8, 9]
+// Imprimindo a matriz
+console.log("Matriz 3x3 com valores de 1 a 9:");
+for (let i = 0; i < matriz.length; i++) {
+    console.log(matriz[i]);
+
+//Escreva um programa que leia uma matriz 2x2 de valores inteiros informados pelo usuário e 
+imprima sua transposta.
+function LerMAtriz2x2 () {
+  let matriz = [];
+for (let i = 0; i < 2; i++) 
+for (let j = 0; j < 2; j++) {
+            let valor = parseInt(prompt(`Digite o valor para a posição [${i}][${j}]:`));
+
+return matriz
