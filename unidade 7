@@ -1,0 +1,11 @@
+//Escreva uma função que receba uma lista de números e retorne o valor mínimo encontrado.
+
+let numeros = [5, 3, 9, 1, 6];
+let valorMinimo = encontrarMinimo(numeros);
+console.log("O valor mínimo é:", valorMinimo);.
+
+//Escreva uma função que receba uma lista de números e um valor inteiro n, e retorne uma nova lista com os n primeiros valores da lista original
+let numeros = [10, 20, 30, 40, 50];
+let n = 3;
+let resultado = primeirosNValores(numeros, n);
+console.log("Os primeiros", n, "valores são:", resultado);
